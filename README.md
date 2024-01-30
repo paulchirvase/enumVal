@@ -2,7 +2,7 @@
 
 
 Example of input code:
-```c++
+```C++
 enum class Weapons
 {
     AK47,
@@ -16,7 +16,7 @@ enum class Weapons
 };
 ```
 Function generated for the code above:
-```
+```C++
 std::string enumVal(Weapons v) {
 	switch(v)
 	{
@@ -33,6 +33,6 @@ std::string enumVal(Weapons v) {
 }
 ```
 Usage:
-```c++
-std::cout<<enumVal(Weapons::Bayonet);
+```C++
+std::cout << enumVal(Weapons::Bayonet);
 ```
