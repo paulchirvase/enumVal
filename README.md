@@ -1,4 +1,6 @@
 **This tool is a parser that takes C++ code and generates a function that returns a string representation of a given enum value for all enumerations in the input code.**
+Its purpose is to facilitate a form of rudimentary reflection by being used as a custom build tool in build pipelines such as what Visual Studio offers in this regard.
+*supposed to run with nodejs
 
 
 Example of input code:
